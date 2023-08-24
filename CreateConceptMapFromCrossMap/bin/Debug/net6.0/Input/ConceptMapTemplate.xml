@@ -1,0 +1,16 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="{{tenant-id}}-epic-location-type"/> 
+  <url value="https://nhsnlink.org/fhir/ConceptMap/{{tenant-id}}-epic-location-type"/> 
+  <version value="20220728"/> 
+  <name value="{{bundling.name}} Location Type"/> 
+  <title value="{{name}}'s Epic Location Type ConceptMap"/> 
+  <status value="draft"/> 
+  <experimental value="true"/> 
+  <date value="2022-12-25"/> 
+  <description value="A mapping between the Epic's Location type codes and CDC HSLoc codes"/> 
+  <purpose value="To help implementers map from {{name}} Epic to FHIR"/> 
+  <group> 
+    <source value="urn:oid:1.2.840.114350.1.13.93.3.7.2.686980"/> 
+    <target value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html"/> 
+  </group> 
+</ConceptMap> 
