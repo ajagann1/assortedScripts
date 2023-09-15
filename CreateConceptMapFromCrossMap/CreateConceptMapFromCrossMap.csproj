@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="closedxml" Version="0.102.1" />
+    <PackageReference Include="Hl7.Fhir.R4" Version="5.3.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

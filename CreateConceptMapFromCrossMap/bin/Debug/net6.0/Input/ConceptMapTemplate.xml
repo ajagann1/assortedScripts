@@ -10,7 +10,7 @@
   <description value="A mapping between the Epic's Location type codes and CDC HSLoc codes"/> 
   <purpose value="To help implementers map from {{name}} Epic to FHIR"/> 
   <group> 
-    <source value="urn:oid:1.2.840.114350.1.13.93.3.7.2.686980"/> 
+    <source value="urn:oid:1.2.840.114350.1.13.310.3.7.2.686980"/> 
     <target value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html"/> 
   </group> 
 </ConceptMap> 

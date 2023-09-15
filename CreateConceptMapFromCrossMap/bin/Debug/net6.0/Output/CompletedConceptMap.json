@@ -1,0 +1,156 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "{{tenant-id}}-epic-location-type",
+  "url": "https://nhsnlink.org/fhir/ConceptMap/{{tenant-id}}-epic-location-type",
+  "version": "20220728",
+  "name": "{{bundling.name}} Location Type",
+  "title": "{{name}}'s Epic Location Type ConceptMap",
+  "status": "draft",
+  "experimental": true,
+  "date": "2022-12-25",
+  "description": "A mapping between the Epic's Location type codes and CDC HSLoc codes",
+  "purpose": "To help implementers map from {{name}} Epic to FHIR",
+  "group": [
+    {
+      "source": "urn:oid:1.2.840.114350.1.13.310.3.7.2.686980",
+      "target": "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html",
+      "element": [
+        {
+          "code": "101",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "103",
+          "target": [
+            {
+              "code": "4525004",
+              "display": "Emergency department patient visit (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "104",
+          "target": [
+            {
+              "code": "448951000124107",
+              "display": "Admission to observation unit (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "108",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "117",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "120",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "122",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "123",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "124",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "125",
+          "target": [
+            {
+              "code": "448951000124107",
+              "display": "Admission to observation unit (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "127",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "129",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "152",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "153",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        },
+        {
+          "code": "154",
+          "target": [
+            {
+              "code": "32485007",
+              "display": "Hospital admission (procedure)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

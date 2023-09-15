@@ -22,3 +22,7 @@ D:\Repository\assortedScripts\CreateConceptMapFromCrossMap\obj\Debug\net6.0\refi
 D:\Repository\assortedScripts\CreateConceptMapFromCrossMap\obj\Debug\net6.0\CreateConceptMapFromCrossMap.pdb
 D:\Repository\assortedScripts\CreateConceptMapFromCrossMap\obj\Debug\net6.0\CreateConceptMapFromCrossMap.genruntimeconfig.cache
 D:\Repository\assortedScripts\CreateConceptMapFromCrossMap\obj\Debug\net6.0\ref\CreateConceptMapFromCrossMap.dll
+D:\Repository\assortedScripts\CreateConceptMapFromCrossMap\bin\Debug\net6.0\Fhir.Metrics.dll
+D:\Repository\assortedScripts\CreateConceptMapFromCrossMap\bin\Debug\net6.0\Hl7.Fhir.Base.dll
+D:\Repository\assortedScripts\CreateConceptMapFromCrossMap\bin\Debug\net6.0\Hl7.Fhir.Conformance.dll
+D:\Repository\assortedScripts\CreateConceptMapFromCrossMap\bin\Debug\net6.0\Hl7.Fhir.R4.dll

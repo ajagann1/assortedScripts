@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CreateConceptMapFromCrossMap/1.0.0": {
         "dependencies": {
+          "Hl7.Fhir.R4": "5.3.0",
           "Newtonsoft.Json": "13.0.3",
           "ClosedXML": "0.102.1"
         },
@@ -51,11 +52,55 @@
           }
         }
       },
+      "Fhir.Metrics/1.2.2": {
+        "runtime": {
+          "lib/netstandard2.0/Fhir.Metrics.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
+          }
+        }
+      },
+      "Hl7.Fhir.Base/5.3.0": {
+        "dependencies": {
+          "Fhir.Metrics": "1.2.2",
+          "Newtonsoft.Json": "13.0.3",
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/net6.0/Hl7.Fhir.Base.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.0"
+          }
+        }
+      },
+      "Hl7.Fhir.Conformance/5.3.0": {
+        "dependencies": {
+          "Hl7.Fhir.Base": "5.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/Hl7.Fhir.Conformance.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.0"
+          }
+        }
+      },
+      "Hl7.Fhir.R4/5.3.0": {
+        "dependencies": {
+          "Hl7.Fhir.Conformance": "5.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/Hl7.Fhir.R4.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.0.0"
+          }
+        }
+      },
       "Irony.NetCore/1.0.11": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
           "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.TypeExtensions": "4.3.0",
           "System.Runtime.Numerics": "4.3.0"
@@ -223,6 +268,7 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.ComponentModel.Annotations/5.0.0": {},
       "System.Console/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -373,7 +419,7 @@
           "System.Reflection": "4.3.0",
           "System.Reflection.Emit": "4.3.0",
           "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
           "System.Reflection.Extensions": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Reflection.TypeExtensions": "4.3.0",
@@ -465,14 +511,7 @@
           "System.Runtime": "4.3.1"
         }
       },
-      "System.Reflection.Emit.Lightweight/4.3.0": {
-        "dependencies": {
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.1"
-        }
-      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
       "System.Reflection.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.1",
@@ -798,6 +837,34 @@
       "path": "excelnumberformat/1.1.0",
       "hashPath": "excelnumberformat.1.1.0.nupkg.sha512"
     },
+    "Fhir.Metrics/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-600yqTbqREfogkwWH+MrXwq7fFI/gO5xn1+f7EYHlN69kXZhEpyG3V574PJiErfMQS1IpDNs4QT0aAu3KGlGFQ==",
+      "path": "fhir.metrics/1.2.2",
+      "hashPath": "fhir.metrics.1.2.2.nupkg.sha512"
+    },
+    "Hl7.Fhir.Base/5.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qwkDPyNK1KGu+f55ZKYVaXJf3U91+2WuHlg4iN01anZxWzbhfg0f7/1e+QpcWBhTon68dQn17mqUm6UPOjSdjw==",
+      "path": "hl7.fhir.base/5.3.0",
+      "hashPath": "hl7.fhir.base.5.3.0.nupkg.sha512"
+    },
+    "Hl7.Fhir.Conformance/5.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Svy12wO79Ciy/0sQkbnhluePXoOVCX2webk0ms2zqbyTD29p0BqBSbodWsyrTUzUuQZziThl3gapjxy83Kwn2Q==",
+      "path": "hl7.fhir.conformance/5.3.0",
+      "hashPath": "hl7.fhir.conformance.5.3.0.nupkg.sha512"
+    },
+    "Hl7.Fhir.R4/5.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ymmAyvWnduk8JnZt/l2toHB8NT1EM4AAktVI7G9cuB3E/IUuZmhW5uP8gEpi8MwzKzilO7iN+PRF0fkfnDnTJw==",
+      "path": "hl7.fhir.r4/5.3.0",
+      "hashPath": "hl7.fhir.r4.5.3.0.nupkg.sha512"
+    },
     "Irony.NetCore/1.0.11": {
       "type": "package",
       "serviceable": true,
@@ -987,6 +1054,13 @@
       "path": "system.collections.concurrent/4.3.0",
       "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
     },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
     "System.Console/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1148,12 +1222,12 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "hashPath": "system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512"
     },
-    "System.Reflection.Emit.Lightweight/4.3.0": {
+    "System.Reflection.Emit.Lightweight/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oadVHGSMsTmZsAF864QYN1t1QzZjIcuKU3l2S9cZOwDdDueNTrqq1yRj7koFfIGEnKpt6NjpL3rOzRhs4ryOgA==",
-      "path": "system.reflection.emit.lightweight/4.3.0",
-      "hashPath": "system.reflection.emit.lightweight.4.3.0.nupkg.sha512"
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
     },
     "System.Reflection.Extensions/4.3.0": {
       "type": "package",

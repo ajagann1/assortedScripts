@@ -1,0 +1,136 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="{{tenant-id}}-epic-location-type" />
+  <url value="https://nhsnlink.org/fhir/ConceptMap/{{tenant-id}}-epic-location-type" />
+  <version value="20220728" />
+  <name value="{{bundling.name}} Location Type" />
+  <title value="{{name}}'s Epic Location Type ConceptMap" />
+  <status value="draft" />
+  <experimental value="true" />
+  <date value="2022-12-25" />
+  <description value="A mapping between the Epic's Location type codes and CDC HSLoc codes" />
+  <purpose value="To help implementers map from {{name}} Epic to FHIR" />
+  <group>
+    <source value="urn:oid:1.2.840.114350.1.13.310.3.7.2.686980" />
+    <target value="https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/hsloc.html" />
+    <element xmlns="">
+      <code value="101" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="103" />
+      <target>
+        <code value="4525004" />
+        <relationship value="inexact" />
+        <display value="Emergency department patient visit (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="104" />
+      <target>
+        <code value="448951000124107" />
+        <relationship value="inexact" />
+        <display value="Admission to observation unit (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="108" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="117" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="120" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="122" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="123" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="124" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="125" />
+      <target>
+        <code value="448951000124107" />
+        <relationship value="inexact" />
+        <display value="Admission to observation unit (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="127" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="129" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="152" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="153" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+    <element xmlns="">
+      <code value="154" />
+      <target>
+        <code value="32485007" />
+        <relationship value="inexact" />
+        <display value="Hospital admission (procedure)" />
+      </target>
+    </element>
+  </group>
+</ConceptMap>
